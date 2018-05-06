@@ -84,8 +84,8 @@ def verifyFileSig(fileName, pubKey, signature):
 
 	f = open(fileName, "r")
 	contents = f.read()
-	fileSig = SHA512.new(contents).hexdigest()
-	if pubKey.verify(signature, fileSig) == True:
+	dataHash = SHA512.new(contents).hexdigest()
+	if pubKey.verify(dataHash, signature) == True:
 		return True
 	else:
 		return False
@@ -187,7 +187,11 @@ def main():
 		# signature of the input file
 
 		signature = loadSig(sigFileName)
-		verifyFileSig(inputFileName, key, signature)
+		if verifyFileSig(inputFileName, key, signature) == True:
+			print "Match!"
+		else:
+			print "No match!"
+
 	else:
 		print "Invalid mode ", mode
 
