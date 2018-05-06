@@ -38,7 +38,7 @@ def loadKey(keyPath):
 # @param string - the string
 ##################################################
 def digSig(sigKey, string):
-	signature = string.sign(sigKey, '')
+	signature = sigKey.sign(string, '')
 
 	# TODO: return the signature of the file
 	return signature
