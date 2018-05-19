@@ -1,6 +1,6 @@
-#CryptoAssignment3
+# CryptoAssignment3
 
-##Names
+## Names
 * Jonathan Moubayed - jonmoubayed@csu.fullerton.edu
 * Diego Franchi - diegofranchi@csu.fullerton.edu
 * Imran Gosla - igosla0@csu.fullerton.edu
@@ -8,10 +8,10 @@
 * Chase Moynihan - chasemoy@csu.fullerton.edu
 * Miles McCloskey - m.mccloskey@csu.fullerton.edu
 
-##Programming Language 
+## Programming Language 
 Python
 
-##How to Execute
+## How to Execute
 
 To sign:
 '''
@@ -32,8 +32,8 @@ To verigy:
 * input.txt - File that you want verify (one is included in the submission)
 * verify - Identifier indicating the program to verify
 
-##Extra Credit
+## Extra Credit
 No extra credit implemented 
 
-##Special Comments
+## Special Comments
 No special comments
