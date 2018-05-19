@@ -14,9 +14,9 @@ Python
 ## How to Execute
 
 To sign:
-'''
+```
 python signer.py privKey.pem signature.sig input.txt sign
-'''
+```
 * privKey.pem - The private key
 * signature.sig - The signature
 * input.txt - File that you want signed (one is included in the submission)
@@ -24,9 +24,9 @@ python signer.py privKey.pem signature.sig input.txt sign
 
 
 To verigy:
-'''
+```
  python signer.py pubKey.pem signature.sig input.txt verify
-'''
+```
 * pubKey.pem - The public key
 * signature.sig - The signature
 * input.txt - File that you want verify (one is included in the submission)
